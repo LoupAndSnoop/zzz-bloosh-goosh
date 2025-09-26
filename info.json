@@ -7,7 +7,7 @@
     "dependencies": ["base >= 2.0.66"
     ],
     "space_travel_required": true,
-    "description": "QOL mod to change the icons of all items, recipes, etc into blueprint icons. BLOOSH GOOSH!",
+    "description": "Quality of life mod to change the icons of all items, recipes, etc into blueprint icons. BLOOSH GOOSH!",
     "homepage": "https://discord.gg/CaDJzEj557",
     "package":{
         "ignore":[ "**/*.mp3", "**/*.xcf", ".vscode/*", "deprecated/*", "screenshots/*"]
