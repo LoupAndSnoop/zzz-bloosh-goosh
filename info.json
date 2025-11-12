@@ -1,12 +1,11 @@
 {
     "name": "zzz-bloosh-goosh",
-    "version": "0.69.1",
+    "version": "0.69.2",
     "title": "Bloosh Goosh",
     "author": "Loup&Snoop, 2025",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0.66"
     ],
-    "space_travel_required": true,
     "description": "Quality of life mod to change the icons of all items, recipes, etc into blueprint icons. BLOOSH GOOSH!",
     "homepage": "https://discord.gg/CaDJzEj557",
     "package":{
