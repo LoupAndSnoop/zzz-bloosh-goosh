@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.69.2
-Date: ????
+Date: 2025-11-12
   Changes:
     - Removed space travel required flag, so people can play without spage.
     - Bloosh goosh several spage icons.
