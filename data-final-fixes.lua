@@ -1,5 +1,7 @@
 local BLOOSH = "__base__/graphics/icons/blueprint.png"
 local BLOOSH2 = "__zzz-bloosh-goosh__/bloosh.png"
+local BLOOSH3 = {filename = BLOOSH,
+      priority = "high", size = 64,  flags = {"gui-icon"} }
 local GOOSH = 64
 
 --Bloosh goosh
@@ -18,12 +20,17 @@ local function bloosh_goosh(prototype)
         prototype.starmap_icon = BLOOSH
         prototype.starmap_icon_size = GOOSH
     end
+
+    if prototype.type == "airborne-pollutant" then
+        prototype.icon = BLOOSH3
+    end
 end
 
 --Bloosh goosh
 local subtypes = {"technology", "recipe", "fluid", "equipment-category",
     "item-group", "space-location", "tips-and-tricks-item", "trivial-smoke",
     "virtual-signal", "quality", "tile", "surface", "planet",
+    "asteroid-chunk", "space-connection", "airborne-pollutant"
 }
 local big_categories = {"item", "entity", "equipment"}
 for _, category in pairs(big_categories) do
