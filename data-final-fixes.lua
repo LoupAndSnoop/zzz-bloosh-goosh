@@ -24,13 +24,18 @@ local function bloosh_goosh(prototype)
     if prototype.type == "airborne-pollutant" then
         prototype.icon = BLOOSH3
     end
+
+    if prototype.type == "shortcut" then
+        prototype.small_icon = BLOOSH
+        prototype.small_icon_size = GOOSH
+    end
 end
 
 --Bloosh goosh
 local subtypes = {"technology", "recipe", "fluid", "equipment-category",
     "item-group", "space-location", "tips-and-tricks-item", "trivial-smoke",
     "virtual-signal", "quality", "tile", "surface", "planet",
-    "asteroid-chunk", "space-connection", "airborne-pollutant"
+    "asteroid-chunk", "space-connection", "airborne-pollutant", "shortcut"
 }
 local big_categories = {"item", "entity", "equipment"}
 for _, category in pairs(big_categories) do
