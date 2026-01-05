@@ -2,6 +2,7 @@
 Version: 0.69.3
 Date: ????
   Changes:
+    - Fixed bug that made this appear like a DLC-requiring mod on the mod portal.
 ---------------------------------------------------------------------------------------------------
 Version: 0.69.2
 Date: 2025-11-12
